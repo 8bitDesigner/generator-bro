@@ -80,6 +80,8 @@ var BroGenerator = yeoman.generators.Base.extend({
 
     this.copy('bowerrc.json', '.bowerrc')
     this.copy('gitignore', '.gitignore')
+    this.copy('editorconfig', '.editorconfig')
+    this.copy('jshintrc', '.jshintrc')
   }
 })
 
