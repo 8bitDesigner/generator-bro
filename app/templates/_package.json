@@ -1,0 +1,14 @@
+{
+  "name": "<%= appname %>",
+  "description": "<%= appdescription %>",
+  "private": true,
+  "version": "0.0.0",
+  "repository": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~4.0.0",
+    <% if (stylus) { %>"stylus": "~0.43.1",<% } %>
+    <% if (coffee) { %>"connect-coffee-script": "~0.1.8",<% } %>
+    "hjs": "0.0.6"
+  }
+}
