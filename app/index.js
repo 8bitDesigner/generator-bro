@@ -33,13 +33,13 @@ var BroGenerator = yeoman.generators.Base.extend({
       {
         type: 'confirm',
         name: 'coffee',
-        message: 'Do you coffeescript, bro?',
+        message: 'Do you even CoffeeScript, bro?',
         default: true
       },
       {
         type: 'confirm',
         name: 'stylus',
-        message: 'Do you stylus, bro?',
+        message: 'Do you even Stylus, bro?',
         default: true
       }
     ]
